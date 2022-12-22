@@ -17,7 +17,7 @@
   }
 
   .mobile{
-    width: 350px;
+    width: 400px;
     height: 635px;
     border: 12 solid #fff;
     border-radius: 32px;
@@ -28,6 +28,7 @@
 
   .div-header{
     height: 100px;
+    width: 380px;
     background: linear-gradient(to right, hsl(264, 100%, 61%),hsl(293,100%,63%));
     border-radius: 20px 20px 10px 10px;
 }
@@ -38,7 +39,7 @@
     top: 40px;
     left: 140px;
     width: 200px;
-    height: 29px;
+    height: 32px;
     background-color: #fff;
     border-radius: 0px 0px 16px 16px;
 }
@@ -47,19 +48,21 @@
     display:flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 40px 20px;
+    padding: 50px 20px;
+    margin: 20px 0px;
 }
 
 .div-3{
     position: relative;
     margin-top: 0px;
     margin-right: 10px;
+    opacity: 0.9;
 }
 
 .div-3::before{
     content: '';
     position: absolute;
-    top: -9px;
+    top: -8px;
     left: 0px;
     width: 4px;
     background-color: #fff;
@@ -76,12 +79,48 @@
     transform: skew(28deg,0deg);
 }
 
-
-  .div-avatar img{
+.div-avatar img{
     width: 30px;
     height: 30px;
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 50%;
+    margin-top: 3px;
+    margin-left: 10px;
+    border-radius: 2px solid #fff;
   }
   
+  .div-name{
+    color: #fff;
+    margin: 0px 15px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .div-status{
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.3;
+    font-weight: 300;
+    margin-left: 16px;
+  }
+
+  .div-dot{
+    position: absolute;
+    width: 4px;
+    height: 3px;
+    margin-left: 280px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+
+
+  .div-dot::before{
+    content: '';
+    position: absolute;
+    top: -9px;
+    left: 0px;
+    width: 4px;
+    background-color: #fff;
+    transform: skew(-28deg,0deg);
+  }
