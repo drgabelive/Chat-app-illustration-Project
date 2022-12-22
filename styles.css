@@ -29,25 +29,23 @@
     height: 635px;
     border: 14px solid #fff;
     border-radius: 32px;
-    margin-top: 250px;
+    margin-top: 200px;
     margin-left: 360px;
-    box-shadow: 10px 10px 20px hsl(206, 6%, 79%);
-    
+    box-shadow: 0px 10px 20px hsl(206, 6%, 79%); 
   }
 
-  .div-header{
-    height: 100px;
-    width: 370px;
-    /* margin-left:15px; */
+  .header{
+    height: 90px;
+    width: 291px;
     background: linear-gradient(to right, hsl(264, 100%, 61%),hsl(293,100%,63%));
     border-radius: 20px 20px 10px 10px;
 }
 
-.div-header::before{
+.header::before{
     content: '';
     position: absolute;
-    top: 40px;
-    left: 140px;
+    top: 200px;
+    left: 420px;
     width: 200px;
     height: 32px;
     background-color: #fff;
@@ -89,7 +87,7 @@
     transform: skew(28deg,0deg);
 }
 
-.div-avatar img{
+.avatar img{
     width: 30px;
     height: 30px;
     border: 1px solid #FFFFFF;
