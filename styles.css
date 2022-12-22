@@ -1,7 +1,4 @@
-/*<style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>*/
+
   @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap'); 
   
   *{
@@ -13,22 +10,35 @@
   body{
     font-size: 16px;
     font-family: 'Rubik',sans-serif;
-    background-color: hsl(270, 20%, 96%);
+    background-color: hsl(270, 40%, 96%);
+  }
+
+.purple{ 
+    position: absolute;
+    width: 510px;
+    height: 1018px;
+    left: -90px;
+    top: -318px;
+    background: linear-gradient(225deg, #E844FF 0%, #8739FF 100%);
+    border-radius: 255px;
+    z-index: -1;
   }
 
   .mobile{
-    width: 400px;
+    width: 320px;
     height: 635px;
-    border: 12 solid #fff;
+    border: 14px solid #fff;
     border-radius: 32px;
-    margin-top: 40px;
-    margin-left: 60px;
-    box-shadow: 0 10px 20px hsl(206, 6%, 79%);
+    margin-top: 250px;
+    margin-left: 360px;
+    box-shadow: 10px 10px 20px hsl(206, 6%, 79%);
+    
   }
 
   .div-header{
     height: 100px;
-    width: 380px;
+    width: 370px;
+    /* margin-left:15px; */
     background: linear-gradient(to right, hsl(264, 100%, 61%),hsl(293,100%,63%));
     border-radius: 20px 20px 10px 10px;
 }
@@ -108,7 +118,7 @@
   .div-dot{
     position: absolute;
     width: 4px;
-    height: 3px;
+    height: 4px;
     margin-left: 280px;
     background-color: #fff;
     border-radius: 50%;
@@ -118,9 +128,38 @@
   .div-dot::before{
     content: '';
     position: absolute;
-    top: -9px;
+    top: -6px;
     left: 0px;
     width: 4px;
+    height: 4px;
+    border-radius: 50%;
     background-color: #fff;
-    transform: skew(-28deg,0deg);
   }
+
+  .div-dot::after{
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: 0px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #fff;
+  }
+
+  .div-message{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 5px 10px;
+    font-size: 12px;
+    border-radius: 10px 10px 20px 20px;
+  }
+
+  .attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+    .attribution a { 
+    color: hsl(228, 45%, 44%); 
+    }
