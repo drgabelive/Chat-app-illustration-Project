@@ -206,7 +206,7 @@
     margin-bottom: 7px;;
 }
 
-.offer{
+.offer, .hour{
     max-width: 65%;
     background: linear-gradient( to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
     padding: 2px 25px 2px 13px;
@@ -221,9 +221,18 @@
     height: 44px;
 }
 
+.div{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    opacity: 0.4;
+}
 
-
-
+.op{
+  margin-left: -12px;
+  opacity: 0.8;
+}
 
 
 
