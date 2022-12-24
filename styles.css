@@ -155,7 +155,7 @@
     flex-direction: column;
     padding: 10px 5px 10px;
     font-size: 12px;
-    font-weight: 400;
+    color: hsl(271, 15%, 43%);
     border-radius: 10px 10px 20px 20px;
   }
 
@@ -206,7 +206,20 @@
     margin-bottom: 7px;;
 }
 
-
+.offer{
+    max-width: 65%;
+    background: linear-gradient( to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    padding: 2px 25px 2px 13px;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+    margin-bottom: 8px;
+    margin-left: 4px;
+    height: 44px;
+}
 
 
 
