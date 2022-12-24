@@ -187,7 +187,7 @@
     cursor: pointer;
 }
 
-.fdbk{
+.fdbk, .fdbk1{
     max-width: 68%;
     width: fit-content;
     display: flex;
@@ -201,7 +201,10 @@
     margin-right: 5px;
 }
   
-
+.fdbk1{
+    margin-left: auto;
+    margin-bottom: 7px;;
+}
 
 
 
